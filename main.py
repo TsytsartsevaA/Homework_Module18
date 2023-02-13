@@ -1,8 +1,8 @@
 # Домашняя работа по Модулю 18
 
 kolvo_biletov = int(input("Укажите сколько билетов Вы хотите приобрести:"))
-if kolvo_biletov <=0 :
-    print("Вы не верно указали число билетов")
+if kolvo_biletov <=0:
+    print("Вы не верно указали количество билетов")
 age = []
 for i in range(0, kolvo_biletov):
     input_value = int(input(f"Введите возраст участника конференции №{i + 1}:"))
